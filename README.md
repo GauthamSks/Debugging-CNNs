@@ -1,6 +1,6 @@
 # <div align='center'><i>Visualizing CNNs</i></div>
 
-<div align='left'>It’s often said that deep-learning models are “black boxes”: learning representations that are difficult to extract and present in a human-readable form. Although this is partially true for certain types of deep-learning models, it’s definitely not true for convnet's. Here I shall briefly explain some of the techniques for visualizing what the convnet's has learned. In application programming, we have debugging and error checking statements like print, assert, try-catch, etc. But when it comes to deep neural networks, debugging them becomes a bit tricky. Fortunately, CNN's takes inputs (images) which are visually interpretable by humans so by visualizing what the convnet's has learned we can debug them effectively.</div>
+<div align='center'>It’s often said that deep-learning models are “black boxes”: learning representations that are difficult to extract and present in a human-readable form. Although this is partially true for certain types of deep-learning models, it’s definitely not true for convnet's. Here I shall briefly explain some of the techniques for visualizing what the convnet's has learned. In application programming, we have debugging and error checking statements like print, assert, try-catch, etc. But when it comes to deep neural networks, debugging them becomes a bit tricky. Fortunately, CNN's takes inputs (images) which are visually interpretable by humans so by visualizing what the convnet's has learned we can debug them effectively.</div>
 
 
 <p></p>
@@ -15,7 +15,7 @@ Here I shall demonstrate how to build a simple CNN model in Keras from scratch f
 
 ## Visualizing CNN
 
-Here I shall demonstrate few of the visualizing techniques to reveal what the CatsVsDogs model(image shown below) has learned and provide insights into it. The techniques that I shall be using here are:
+<div align='center'>Here I shall demonstrate few of the visualizing techniques to reveal what the CatsVsDogs model(image shown below) has learned and provide insights into it. The techniques that I shall be using here are:</div>
 <p align='center'><img src=./Images/Model.png></p>
 
 - <b>Visualizing Intermediate Activations</b>: Here we shall display the feature maps that are output by various convolution and pooling layers in a network, given a certain input. This gives a view into how input is decomposed by the different filters learned by the network. For eg say the input layer dimension is 224x224x3 and the output dimension after the first convolution operation is 224x224x64. Here, 64 is the number of filters which are used to extract input features after 1st convolution operation, so we will just plot these sixty-four 224x224 filtered outputs of the input image. A sample image from the notebook is given below.
