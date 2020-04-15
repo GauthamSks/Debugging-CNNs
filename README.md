@@ -6,8 +6,8 @@
 <p></p>
 <div align='left'>This repository has two notebooks:<div>
 
-- Cats Vs Dogs classifier
-- Visualizing CNN
+- <a href="https://github.com/GauthamSks/Visualizing-CNNs/blob/master/Cats_Vs_Dogs%20Classifier.ipynb">Cats Vs Dogs classifier</a>
+- <a href="https://github.com/GauthamSks/Visualizing-CNNs/blob/master/Visualizing%20CNN's.ipynb">Visualizing CNN</a>
 
 ## Cats Vs Dogs classifier
 <p align='center'><img src=./Images/CvsD_s.jpg></p>
@@ -28,3 +28,8 @@ given filter in a given convolution layer, and then we shall use stochastic grad
 
 - <b>Visualizing Heatmaps</b>: In this technique, we use GradCAM and try to understand which parts of the input image led a convnet to a particular classification decision. The general category of techniques is called “Class Activation Map” (CAM) visualization and consists in producing heatmaps of “class activation” over input images. A “class activation” heatmap is a 2D grid of scores associated with a specific output class, computed for every location in an input image, indicating how important each location is with respect to the class considered. This helps us in debugging the decision process of a convolutional neural network.A sample image from the notebook is given below.
 <p align='center'><img src=./Images/VH.png></p>
+
+## References
+- <a href="https://www.amazon.in/Deep-Learning-Python-Francois-Chollet/dp/1617294438">Deep Learning with Python by François Chollet</a>
+- <a href="https://towardsdatascience.com/visual-interpretability-for-convolutional-neural-networks-2453856210ce">Visual Interpretability for Convolutional Neural Networks by Himanshu Rawlani</a>
+
